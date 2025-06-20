@@ -16,4 +16,4 @@ If XGBoost, LightGBM, and CatBoost can complement each other, than combining the
 [2] https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success \
 [3] J. Chen, F. Zhao, Y. Sun, and Y. Yin, “Improved XGBoost model based on genetic algorithm,” Int. J. Comput. Appl. Technol., vol. 62, no. 3, p. 240, 2020, doi: 10.1504/IJCAT.2020.106571. \
 [4] G. Ke et al., “LightGBM: A Highly Efficient Gradient Boosting Decision Tree,” Adv. Neural Inf. Process. Syst., vol. 30, 2017. \
-[5] L. Prokhorenkova et al., “CatBoost: Unbiased Boosting with Categorical Features,” arXiv preprint, arXiv:1706.09516, 2017. \
+[5] L. Prokhorenkova et al., “CatBoost: Unbiased Boosting with Categorical Features,” arXiv preprint, arXiv:1706.09516, 2017.
