@@ -18,6 +18,30 @@ LightGBM invention shows has an improvement over XGBoost on several datasets: Al
 ### CatBoost + Genetic Algorithm
 CatBoost invention also shows has an improvement over XGBoost and LightGBM on Epsilon dataset[[5]](#ref5). You can see how well CatBoost performance by comparing with XGBoost and LightGBM with Logloss/Zero-One loss metrics.
 ![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/images/CatBoost%20Performance.png)
+# Results
+## Using SMOTE
+### 50:50 (SMOTE)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/50-50%20SMOTE.png)
+### 60:40 (SMOTE)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/60-40%20SMOTE.png)
+### 70:30 (SMOTE)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/70-30%20SMOTE.png)
+### 80:20 (SMOTE)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/80-20%20SMOTE.png)
+### 90:10 (SMOTE)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/90-10%20SMOTE.png)
+## Using Random UnderSampler
+### 50:50 (RandomUnderSampler)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/50-50%20RandomUnderSampler.png)
+### 60:40 (RandomUnderSampler)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/60-40%20RandomUnderSampler.png)
+### 70:30 (RandomUnderSampler)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/70-30%20RandomUnderSampler.png)
+### 80:20 (RandomUnderSampler)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/80-20%20RandomUnderSampler.png)
+### 90:10 (RandomUnderSampler)
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/Results/90-10%20RandomUnderSampler.png)
+
 # References
 <a id="ref1"/>
 
