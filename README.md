@@ -13,7 +13,7 @@ CatBoost invention also shows has an improvement over XGBoost and LightGBM on Ep
 If XGBoost, LightGBM, and CatBoost can complement each other, than combining them can probably increase the performance.
 # References
 <a id="ref1"/>
-[1] A. Ridwan and A. M. Priyatno, “Predict Students’ Dropout and Academic Success with XGBoost,” Journal of Education and Computer Applications, vol. 1, no. 2, pp. 1–8, Dec. 2024, doi.org/10.69693/jeca.v1i2.13.
+[1] A. Ridwan and A. M. Priyatno, “Predict Students’ Dropout and Academic Success with XGBoost,” Journal of Education and Computer Applications, vol. 1, no. 2, pp. 1–8, Dec. 2024, doi.org/10.69693/jeca.v1i2.13.\\
 <a id="ref2"/>
 [2] https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success \
 <a id="ref3"/>
