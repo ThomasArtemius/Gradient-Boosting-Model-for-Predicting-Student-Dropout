@@ -1,16 +1,17 @@
 # Gradient-Boosting-Model-for-Predicting-Student-Dropout
 Using SMOTE, Random Undersampling, XGBoost, LightGBM, CatBoost, and Genetic Algorithm in predicting student dropout
 # Previous Work
-XGBoost is used for predicting student dropout with multiple spliting variations[[1]](#ref1). The data itself is taken from Machine Learning repository[[2]](#ref2). It contains 3 catogory: Dropout, Graduate, and Enrolled. But because it tries to predict the dropout and non-dropout, therefore, Graduate and Enrolled category are combined. The data has 36 features overall and 4424 rows. In this paper, it's not handling imbalance data due to combining of 2 categories.
+XGBoost is used for predicting student dropout with multiple spliting variations[[1]](#ref1). The data itself is taken from Machine Learning repository[[2]](#ref2). It contains 3 catogory: Dropout, Graduate, and Enrolled. But because it tries to predict the dropout and non-dropout, therefore, Graduate and Enrolled category are combined. The data has 36 features overall and 4424 rows. In this paper, it's not handling imbalance data due to combining of 2 categories.\
+This paper doesn't provide any detail on what hyperparameters are used in their XGBoost model. The default parameter from SKLearn doesn't provide an exact result with the paper. I will also provide the result from default parameter from SKLearn for comparison later.
 # Models
+## SMOTE and Random Undersampling
+I try to implement SMOTE and Random Undersampling separately to see what are their impact on model performances.
 ## XGBoost + Genetic Algorithm
-Improvement has been made for classifying Liver Disorder Dataset using Genetic Algorithm for optimizing XGBoost[[3]](#ref3). It increase all metrics like precision, recall, F1-Score, and accuracy. Therefore, it is possible that this technique is used for Student dropout dataset
-## LightGBM
+Improvement has been made for classifying Liver Disorder Dataset using Genetic Algorithm for optimizing XGBoost[[3]](#ref3). It increase all metrics like precision, recall, F1-Score, and accuracy. Therefore, it is possible that this technique can be used for Student dropout dataset. Because of this achievement, Genetic Algorithm will also be used for optimizing LightGBM and CatBoost
+## LightGBM + Genetic Algorithm
 LightGBM invention shows has an improvement over XGBoost on several datasets: Allstate, Flight Delay, LETOR, KDD10, KDD12[[4]](#ref4).
-## CatBoost
+## CatBoost + Genetic Algorithm
 CatBoost invention also shows has an improvement over XGBoost and LightGBM on Epsilon dataset[[5]](#ref5).
-## Hybrid Method
-If XGBoost, LightGBM, and CatBoost can complement each other, than combining them can probably increase the performance.
 # References
 <a id="ref1"/>
 
