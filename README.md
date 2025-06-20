@@ -14,7 +14,7 @@ If XGBoost, LightGBM, and CatBoost can complement each other, than combining the
 # References
 <a id="ref1"/>
 
-[1] A. Ridwan and A. M. Priyatno, “Predict Students’ Dropout and Academic Success with XGBoost,” Journal of Education and Computer Applications, vol. 1, no. 2, pp. 1–8, Dec. 2024, doi.org/10.69693/jeca.v1i2.13.
+[1] [A. Ridwan and A. M. Priyatno, “Predict Students’ Dropout and Academic Success with XGBoost,” Journal of Education and Computer Applications, vol. 1, no. 2, pp. 1–8, Dec. 2024, doi.org/10.69693/jeca.v1i2.13.](https://jeca.aks.or.id/jeca/article/view/13/6)
 
 <a id="ref2"/>
 
@@ -22,12 +22,12 @@ If XGBoost, LightGBM, and CatBoost can complement each other, than combining the
 
 <a id="ref3"/>
 
-[3] J. Chen, F. Zhao, Y. Sun, and Y. Yin, “Improved XGBoost model based on genetic algorithm,” Int. J. Comput. Appl. Technol., vol. 62, no. 3, p. 240, 2020, doi: 10.1504/IJCAT.2020.106571.
+[3] [J. Chen, F. Zhao, Y. Sun, and Y. Yin, “Improved XGBoost model based on genetic algorithm,” Int. J. Comput. Appl. Technol., vol. 62, no. 3, p. 240, 2020, doi: 10.1504/IJCAT.2020.106571.](https://sci-hub.se/10.1504/ijcat.2020.106571)
 
 <a id="ref4"/>
 
-[4] G. Ke et al., “LightGBM: A Highly Efficient Gradient Boosting Decision Tree,” Adv. Neural Inf. Process. Syst., vol. 30, 2017. 
+[4] [G. Ke et al., “LightGBM: A Highly Efficient Gradient Boosting Decision Tree,” Adv. Neural Inf. Process. Syst., vol. 30, 2017.](https://proceedings.neurips.cc/paper_files/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf)
 
 <a id="ref5">
   
-[5] L. Prokhorenkova et al., “CatBoost: Unbiased Boosting with Categorical Features,” arXiv preprint, arXiv:1706.09516, 2017.
+[5] [L. Prokhorenkova et al., “CatBoost: Unbiased Boosting with Categorical Features,” arXiv preprint, arXiv:1706.09516, 2017.](https://arxiv.org/pdf/1706.09516)
