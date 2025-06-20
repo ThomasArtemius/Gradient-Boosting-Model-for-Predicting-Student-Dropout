@@ -8,12 +8,16 @@ This paper doesn't provide any detail on what hyperparameters are used in their 
 I try to implement SMOTE and Random Undersampling separately to see what are their impact on model performances.
 ## Gradient Boosting
 In order to comparing "fairly" with the previous paper, I using methods within the domain of gradient boosting. I use XGBoost, LightGBM, and CatBoost. XGBoost will be optimized with genetic algorithm (as well as other 2 other methods). LightGBM is chosen because of its improvement upon XGBoost in its original paper. CatBoost is chosen because of its improvement upon XGBoost and LightGBM in its original paper also.
-## XGBoost + Genetic Algorithm
-Improvement has been made for classifying Liver Disorder Dataset using Genetic Algorithm for optimizing XGBoost[[3]](#ref3). It increase all metrics like precision, recall, F1-Score, and accuracy. Therefore, it is possible that this technique can be used for Student dropout dataset. Because of this achievement, Genetic Algorithm will also be used for optimizing LightGBM and CatBoost
-## LightGBM + Genetic Algorithm
+### XGBoost + Genetic Algorithm
+Improvement has been made for classifying Liver Disorder Dataset using Genetic Algorithm for optimizing XGBoost[[3]](#ref3). It increase all metrics like precision, recall, F1-Score, and accuracy.
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/images/XGBoost%20%2B%20GA.png)
+Therefore, it is possible that this technique can be used for Student dropout dataset. Because of this achievement, Genetic Algorithm will also be used for optimizing LightGBM and CatBoost
+### LightGBM + Genetic Algorithm
 LightGBM invention shows has an improvement over XGBoost on several datasets: Allstate, Flight Delay, LETOR, KDD10, KDD12[[4]](#ref4). With AUC metric for comparison, here are the result of LightGBM compare with other methods.
-## CatBoost + Genetic Algorithm
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/images/LightGBM%20Performance.png)
+### CatBoost + Genetic Algorithm
 CatBoost invention also shows has an improvement over XGBoost and LightGBM on Epsilon dataset[[5]](#ref5). You can see how well CatBoost performance by comparing with XGBoost and LightGBM with Logloss/Zero-One loss metrics.
+![](https://github.com/ThomasArtemius/Gradient-Boosting-Model-for-Predicting-Student-Dropout/blob/main/images/CatBoost%20Performance.png)
 # References
 <a id="ref1"/>
 
