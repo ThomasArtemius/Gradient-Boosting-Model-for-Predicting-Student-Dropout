@@ -1,5 +1,5 @@
 # Gradient-Boosting-Model-for-Predicting-Student-Dropout
-Using SMOTE, XGBoost + Genetic Algorithm, LightGBM, and CatBoost to improve prediction on student dropout
+Using SMOTE, Random Undersampling, XGBoost, LightGBM, CatBoost, and Genetic Algorithm in predicting student dropout
 # Previous Work
 XGBoost is used for predicting student dropout with multiple spliting variations[[1]](#ref1). The data itself is taken from Machine Learning repository[[2]](#ref2). It contains 3 catogory: Dropout, Graduate, and Enrolled. But because it tries to predict the dropout and non-dropout, therefore, Graduate and Enrolled category are combined. The data has 36 features overall and 4424 rows. In this paper, it's not handling imbalance data due to combining of 2 categories.
 # Models
